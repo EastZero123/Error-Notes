@@ -1,0 +1,6 @@
+현상 - 회사 DB의 데이터를 받아오는데 단순히 인코딩 깨짐이 아닌 ???으로 깨진다
+
+해결 노력 - fetch함수 인코딩 설정, application.properties설정으로도 깨지는 현상이 발생
+
+해결 - 기존의 GetMapping어노테이션을 제거하고 RequestMapping으로 수정 후 produces = "charset=UTF-8"로 하자 현상이 사라졌다
+앞으로 겟포스트 매핑을 피해야 하는건가?
