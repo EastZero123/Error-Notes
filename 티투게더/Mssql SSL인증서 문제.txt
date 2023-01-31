@@ -1,0 +1,4 @@
+콘솔 속 에러 문구 속 java.security의 경로의 확인 한다
+경로 속 java.security를 연 후 jdk.certpath.disabledAlgorithms, jdk.tls.disabledAlgorithms 두 개를 주석처리한다
+
+만약 security가 액세스 문제로 저장이 안되면 파일 속성을 열어 보안 권한을 조정한다
