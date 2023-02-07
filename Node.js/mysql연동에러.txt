@@ -1,0 +1,5 @@
+mysql 연동시 
+ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+에러 발생
+
+-> mysql installer에서 server 재설정 안 Auth 단계에서 Legacy를 선택한다
